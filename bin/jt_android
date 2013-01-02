@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require "rubygems"
+require "thor"
+
+require "jt-mobile-kit/android/android"
+
+Android.start

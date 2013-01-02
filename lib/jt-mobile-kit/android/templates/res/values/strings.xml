@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoodeSMS_client</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_login">Login</string>
+    <string name="auto_login_username">android_demo</string>
+    <string name="auto_login_password">android_demo</string>
+    <string name="username_is_null">Please input username</string>
+    <string name="password_is_null">Please input password</string>
+    <string name="do_login_success">Login Success</string>
+    <string name="do_login_failean">Login failean</string>
+</resources>
