@@ -1,0 +1,7 @@
+#@{scaffold_name}_list_page(data-role="page")
+  =head_bar :href => "#main_page", :title => "@{scaffold_name} List Page"
+  %div(data-role="content")
+    .content-primary
+      %ul#@{scaffold_name}_list(data-role="listview")
+        %li
+          %h3 loading...
