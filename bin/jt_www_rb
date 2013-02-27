@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require "rubygems"
+require "thor"
+require "thor/group"
+
+require "jt-mobile-kit/www_rb/www_rb"
+
+WwwRb.start

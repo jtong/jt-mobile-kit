@@ -4,14 +4,15 @@ require "rubygems"
 require "thor"
 require "thor/group"
 
+
 @@project_name = ARGV[0]
 
 class ProjectCreator < Thor::Group
   include Thor::Actions
   source_root File.expand_path("../", __FILE__)
   def initialize(args=[], options={}, config={})
-    super
-    self.destination_root= ""
+  super
+  self.destination_root= ""
   end
 
   def create_project
@@ -20,7 +21,7 @@ class ProjectCreator < Thor::Group
 
   def create_www_folder
     inside @@project_name do
-      run "jt_www_rb init"
+      run "jt_www_js init"
     end
   end
 

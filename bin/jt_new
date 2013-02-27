@@ -18,6 +18,12 @@ class ProjectCreator < Thor::Group
     empty_directory @@project_name
   end
 
+  def create_www_folder
+    inside @@project_name do
+      run "jt_www_rb init"
+    end
+  end
+
   def create_app_project
     inside @@project_name do
       run "jt_android init"
