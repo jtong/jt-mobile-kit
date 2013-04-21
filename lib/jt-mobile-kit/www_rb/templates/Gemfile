@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'haml'
-gem 'jt-partial'
+gem 'jt-partial', "0.0.7"
 gem 'moode-haml-jqm'
-gem 'moode-haml-toolkit'
+gem 'moode-haml-toolkit', "0.0.3"
