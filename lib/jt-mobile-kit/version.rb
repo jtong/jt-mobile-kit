@@ -1,7 +1,7 @@
 module Jt
   module Mobile
     module Kit
-      VERSION = "0.0.4"
+      VERSION = "1.0.1"
     end
   end
 end
