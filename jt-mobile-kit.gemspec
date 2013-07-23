@@ -15,10 +15,10 @@ Gem::Specification.new do |gem|
   gem.files         = Dir['CHANGELOG.md', 'README.rdoc', 'bin/**/*', 'lib/**/{*,.[a-z]*}']#`git ls-files`.split($/)
   #gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.bindir             = 'bin'
-  gem.executables        = ['jt','jt_android', 'jt_js', 'jt_www_js', 'jt_www_rb']
+  gem.executables        = ['jt','jt_android', 'jt_js', 'jt_www_js', 'jt_www_rb', 'jtc']
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency('thor')
-  gem.add_dependency('rails')
+  #gem.add_dependency('thor')
+  #gem.add_dependency('rails')
 end
