@@ -3,9 +3,7 @@ source 'https://rubygems.org'
 gem 'haml'
 gem 'thor'
 gem 'jt-partial', "1.0.1"
-gem 'moode-haml-toolkit', "1.0.4"
+gem 'moode-haml-toolkit', "1.1.0"
 gem 'Rwebserver'
 
-# legacy
-gem 'moode-haml-jqm'
 
