@@ -4,7 +4,8 @@ gem 'haml'
 gem 'thor'
 gem 'jt-partial', "1.0.3"
 gem 'moode-haml-toolkit', "1.1.6"
-gem 'Rwebserver'
+gem 'sinatra'
+gem 'rack'
 
 gem 'moode-haml-component-angular', "0.0.3"
 
