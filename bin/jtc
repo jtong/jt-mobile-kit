@@ -1,4 +1,0 @@
-#!/usr/bin/env ruby
-require 'jt-mobile-kit/jt_generator'
-
-JtMain.start
