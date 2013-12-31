@@ -3,9 +3,11 @@ source 'https://rubygems.org'
 gem 'haml'
 gem 'thor'
 gem 'jt-partial', "1.0.3"
-gem 'moode-haml-toolkit', "1.1.6"
+gem 'moode-haml-toolkit', "1.2.0"
+gem 'rake'
 gem 'sinatra'
 gem 'rack'
+gem 'jt-mobile-kit-generator'
 
 gem 'moode-haml-component-angular', "0.0.3"
 
