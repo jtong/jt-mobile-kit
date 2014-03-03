@@ -6,9 +6,13 @@ class WwwRb < Thor
     self.destination_root= ""
   end
 
-  desc "init", "create ruby based www folder"
+  desc :init, "init www folder"
   def init
     directory :templates, :www
   end
-end
 
+  desc :new, "new web project folder"
+  def new name
+    directory :templates, name.to_sym
+  end
+end
